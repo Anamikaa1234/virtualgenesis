@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main()
 {
-int n,reverse=0,rem,orig;
+int n,reverse=0,orig;
 scanf("%d",&n);
 orig=n;
 while(n!=0)
 {
-rem=n%10;
+int rem=n%10;
 reverse=reverse*10+rem;
 n=n/10;
 }
