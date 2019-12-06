@@ -11,8 +11,8 @@ reverse=reverse*10+rem;
 n=n/10;
 }
 if(orig==reverse)
-printf("%d is a palindrome",orig);
+printf("Is a palindrome");
 else
-printf("%d is not a palindrome",orig);
+printf("Is not a palindrome");
 return 0;
 }
